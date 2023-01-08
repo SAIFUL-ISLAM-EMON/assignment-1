@@ -72,3 +72,107 @@ body{
     color: #373333;
     padding-bottom: 18px;
 }
+.section-list {
+    list-style: none;
+    font-size: 14px;
+    color: #6b6767;
+    padding-top: 16px;
+}
+.section-list li {
+    padding-bottom: 10px;
+}
+
+/* 2nd section code */
+
+.section-backround {
+    background-color: #74f18036;
+}
+
+img {
+    width: 100%;
+}
+.my-img {
+    width: 200px;
+}
+.section-title h2 {
+    padding-top: 80px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+.section-title p {
+    width: 560px;
+    text-align: center;
+    padding-left: 260px;
+    padding-bottom: 55px;
+}
+.display-l {
+    float: left;
+    margin-right: 70px;
+    margin-bottom: 100px;
+}
+img.amr-pic {
+    overflow: hidden;
+    height: 229px;
+}
+.img-wraper img {
+    width: 70px;
+    margin-left: 92px;
+}
+.img-wraper {
+    float: left;
+    width: 265px;
+}
+section {
+    overflow: hidden;
+}
+.img-detail {
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 90px;
+}
+.img-detail h2 {
+    font-size: 20px;
+}
+.img-detail h4 {
+    font-size: 14px;
+    padding-top: 9px;
+    color: #1412129c;
+    font-weight: 500;
+}
+.section-title-2 {
+    text-align: center;
+    font-size: 27px;
+    margin-bottom: 96px;
+    margin-top: 96px;
+}
+
+
+
+.gradient-img{
+    background-image: linear-gradient(to right, #ff9a3ec9,#00000059),url(images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.gradient-img h2 {
+    width: 436px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    padding-left: 75px;
+    font-size: 30px;
+    color: #ffff;
+}
+
+.gradient-img button {
+
+    padding: 15px 23px;
+    background: #F15B22;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 40px;
+    margin-left: 72px;
+}
