@@ -46,6 +46,7 @@ body{
     border-radius: 5px;
     font-size: 18px;
     margin-bottom: 30px;
+    cursor: pointer;
 }
 
 /* 1st section css code */
@@ -110,7 +111,7 @@ img {
     margin-right: 70px;
     margin-bottom: 100px;
 }
-img.amr-pic {
+.amr-pic {
     overflow: hidden;
     height: 229px;
 }
@@ -146,13 +147,15 @@ section {
     margin-top: 96px;
 }
 
-
+/* linear-gradient css code */
 
 .gradient-img{
     background-image: linear-gradient(to right, #ff9a3ec9,#00000059),url(images/watch.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    border-radius: 6px;
+    margin-bottom: 100px;
 }
 
 
@@ -175,4 +178,78 @@ section {
     font-size: 18px;
     margin-bottom: 40px;
     margin-left: 72px;
+    cursor: pointer;
+}
+.container.flex {
+    display: flex;
+    color: #fff;
+}
+
+/* footer area css code */
+
+footer.fotter-color {
+    background: #070707db;
+}
+
+.footer-part-1 {
+    width: 458px;
+    margin-top: 100px;
+    margin-right: 25px;
+}
+
+.footer-part-1 h2 {
+    font-size: 39px;
+    padding-bottom: 18px;
+}
+
+.footer-part-1 p {
+    font-size: 15px;
+    color: #f8f4f4f0;
+}
+
+.footer-part-1 h3 {
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+.footer-part-2 input {
+    display: block;
+    padding: 10px;
+    border-color: #fff;
+    border-radius: 4px;
+    background: #07070700;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-part-2 {
+    margin-left: 347px;
+    margin-top: 100px;
+}
+
+.footer-part-2 h2 {
+    font-weight: 500;
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+.sub {
+    padding: 15px 23px;
+    background: #ffff;
+    color: #F15B22;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.logo-lik {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 100px;
+}
+
+.logo-lik a {
+    margin-right: 15px;
 }
